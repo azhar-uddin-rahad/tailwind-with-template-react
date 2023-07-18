@@ -1,0 +1,30 @@
+.parents .child{
+    width: 0px;  
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+    transition: width 1s linear;
+
+}
+.parents:hover .child{
+    width: 396px;
+}
+.parents:hover .content{
+    display: block;
+}
+
+.second-child{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+    border-top-right-radius: 100%;
+    transition: width 1s linear,height 1s linear;
+}
+.second-parent:hover .second-child{
+    width: 405px;
+    height: 284px;
+}
+
+.second-parent:hover .second-content{
+    display: block;
+}

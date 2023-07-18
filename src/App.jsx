@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Component/Navbar/Navbar'
 import Banner from './Component/Banner/Banner'
 import WeWork from './Component/WeWork/WeWork'
+import Project from './Component/Project/Project'
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <WeWork></WeWork>
+      <Project></Project>
         
     </>
   )
