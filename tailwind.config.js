@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         'poppins': ['Poppins'],
       },
+      width: {
+        'container': '1280px',
+      }
     },
   },
   plugins: [],

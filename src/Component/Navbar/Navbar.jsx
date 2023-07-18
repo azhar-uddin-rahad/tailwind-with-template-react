@@ -9,15 +9,15 @@ const Navbar = () => {
                     <div className="logo w-[452px] pt-8 pb-8">
                         <img src={logo} alt="" />
                         </div>
-                        <div className="menu flex items-center gap-12 pt-8 pb-[30px] transition duration-0 hover:duration-1000">
+                        <div className="menu flex items-center gap-12 pt-8 pb-[30px]">
                             <div className="listItem">
                             <ul className='flex gap-8 text-[#BBBBCB] font-poppins font-medium text-[16px]'>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">Home</li>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">About Us</li>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">Feature</li>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">Pricing</li>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">FAQ</li>
-                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] hover:text-2xl">Blog</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff]">Home</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff]">About Us</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff]">Feature</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff] ">Pricing</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff]">FAQ</li>
+                                <li className="transition duration-0 hover:duration-300 hover:font-semibold hover:text-[#fff]">Blog</li>
                             </ul>
                             </div>
                             <div>
