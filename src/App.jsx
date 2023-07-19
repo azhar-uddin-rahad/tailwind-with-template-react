@@ -6,6 +6,7 @@ import Navbar from './Component/Navbar/Navbar'
 import Banner from './Component/Banner/Banner'
 import WeWork from './Component/WeWork/WeWork'
 import Project from './Component/Project/Project'
+import Features from './Component/Features/Features'
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
       <Banner></Banner>
       <WeWork></WeWork>
       <Project></Project>
+      <Features></Features>
         
     </>
   )
