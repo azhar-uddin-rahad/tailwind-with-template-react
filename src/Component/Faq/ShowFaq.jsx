@@ -12,7 +12,7 @@ const ShowFaq = ({ questions }) => {
   
     return (
       <div className='py-8 border-b-2 border-[#ECECF1]'>
-        <div className='text-[#282938] flex justify-between'>
+        <div className='text-[#282938] flex justify-between mb-4'>
           <h1 className='text-2xl font-poppins font-medium'><span className='text-[#2405F2] mr-[60px]'>0{questions.id}</span>{questions.ques}</h1>
         <p onClick={toggleShow}>{show ? <FontAwesomeIcon icon={faXmark}/> : <FontAwesomeIcon icon={faPlus} />}</p>
         </div>

@@ -9,6 +9,7 @@ import Project from './Component/Project/Project'
 import Features from './Component/Features/Features'
 import ClientReview from './Component/ClientReview/ClientReview'
 import Faq from './Component/Faq/Faq'
+import SendInquiry from './Component/SendInquiry/SendInquiry'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       <Features></Features>
       <ClientReview></ClientReview>
       <Faq></Faq>
+      <SendInquiry></SendInquiry>
         
     </>
   )

@@ -24,6 +24,11 @@ const Faq = () => {
         ques: "What is your class naming convention?",
         ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
+        {
+        id: 5,
+        ques: "What is your class naming convention?",
+        ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
 
 
 ]
