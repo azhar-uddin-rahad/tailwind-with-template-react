@@ -43,16 +43,16 @@ const Features = () => {
     ]
     return (
         <div className='features-section bg-[#F4F6FC]'>
-            <div className='w-container mx-auto pt-32'>
+            <div className='max-w-7xl mx-auto pt-32 pb-32 '>
                 <h6 className='text-center text-[#282938] font-poppins font-medium text-[16px] leading-[28px] my-4 '>Features</h6>
                 <h3 className='w-[530px] mx-auto text-center  text-[#282938] font-poppins font-semibold text-[48px] leading-[64px] mb-12'>Design that solves problems, one product at a time</h3>
-                <div className='flex flex-wrap gap-6 '>
-                    {similarLoop.map((item,index)=><div className='w-1/4 mx-auto pt-[58px] bg-[#fff] pb-12 pl-12 pr-8' key={index}>
+                <div className='flex flex-wrap gap-4'>
+                    {similarLoop.map((item,index)=><div className='w-[405px] mx-auto pt-[58px] bg-[#fff] pb-12 pl-12 pr-8' key={index}>
                         <div className='icon pb-5'>
                             <img src={item.icon} alt="" />
                         </div>
-                        <h3>{item.name}</h3>
-                        <p>{item.paragraph}</p>
+                        <h3 className='text-[#282938] font-poppins font-medium text-2xl pb-3'>{item.name}</h3>
+                        <p className='text-[#282938] font-poppins font-medium text-[16px] leading-[28px]'>{item.paragraph}</p>
                     </div>)
 
                     }

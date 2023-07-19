@@ -7,6 +7,8 @@ import Banner from './Component/Banner/Banner'
 import WeWork from './Component/WeWork/WeWork'
 import Project from './Component/Project/Project'
 import Features from './Component/Features/Features'
+import ClientReview from './Component/ClientReview/ClientReview'
+import Faq from './Component/Faq/Faq'
 
 function App() {
  
@@ -18,6 +20,8 @@ function App() {
       <WeWork></WeWork>
       <Project></Project>
       <Features></Features>
+      <ClientReview></ClientReview>
+      <Faq></Faq>
         
     </>
   )
