@@ -36,7 +36,7 @@ const Blog = () => {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto mb-32">
       <h3 className="text-[#282938] font-poppins font-semibold text-[48px] leading-[64px]">
         Our Blog
       </h3>

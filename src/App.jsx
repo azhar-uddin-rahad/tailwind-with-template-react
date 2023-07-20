@@ -11,6 +11,7 @@ import ClientReview from './Component/ClientReview/ClientReview'
 import Faq from './Component/Faq/Faq'
 import SendInquiry from './Component/SendInquiry/SendInquiry'
 import Blog from './Component/Blog/Blog'
+import Footer from './Component/Footer/Footer'
 
 function App() {
  
@@ -26,6 +27,7 @@ function App() {
       <Faq></Faq>
       <SendInquiry></SendInquiry>
       <Blog></Blog>
+      <Footer></Footer>
         
     </>
   )
